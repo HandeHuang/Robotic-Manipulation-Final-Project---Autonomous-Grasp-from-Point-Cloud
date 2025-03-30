@@ -8,7 +8,7 @@ This project implements an automated grasping pipeline in a simulated PyBullet e
 
 ---
 
-## Demo:
+## 🎬 Demo:
 
 ![Grasp Demo](demo.gif)
 
