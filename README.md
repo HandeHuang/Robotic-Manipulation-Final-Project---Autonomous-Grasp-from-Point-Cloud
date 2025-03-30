@@ -8,6 +8,13 @@ This project implements an automated grasping pipeline in a simulated PyBullet e
 
 ---
 
+## Demo:
+
+![Grasp Demo](demo.gif)
+
+
+---
+
 ## 🚀 Pipeline Overview
 
 1. **Initialize Simulation**  
