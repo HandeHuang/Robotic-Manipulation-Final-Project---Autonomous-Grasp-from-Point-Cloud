@@ -83,11 +83,11 @@ class World:
         p.resetBasePositionAndOrientation(box_id, [0.1,0.1,0.1], q)
         # Add sphere object (sphere.urdf)
         sphere_id = p.loadURDF(os.path.join(file_path,"sphere.urdf"), [0, 0, 0.05])
-        p.changeDynamics(sphere_id, -1, lateralFriction=1.0)
-        p.resetBasePositionAndOrientation(sphere_id, [0.1,0.2,0], q)
+        p.changeDynamics(sphere_id, -1, lateralFriction=0.9, rollingFriction=0.1, spinningFriction=0.1)
+        p.resetBasePositionAndOrientation(sphere_id, [0.1,-0.2,0], q)
         # # Add cylinder object (cylinder.urdf)
         cylinder_id = p.loadURDF(os.path.join(file_path,"cylinder.urdf"), [0, 0, 0.05])
-        p.changeDynamics(cylinder_id, -1, lateralFriction=0.9)
+        p.changeDynamics(cylinder_id, -1, lateralFriction=0.9, rollingFriction=0.1, spinningFriction=0.1)
         p.resetBasePositionAndOrientation(cylinder_id, [0.15,0 ,0], q)
 
         for sim_step in range(300):
