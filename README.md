@@ -2,10 +2,6 @@
  ROB 498/599 Intro to Robotic Manipulation final project.
 
 
-🦾 Antipodal Grasping with Point Clouds
-This project implements an automated grasping pipeline in a simulated PyBullet environment. It uses point cloud data to detect objects, compute antipodal grasps, and control a robot to remove objects from the scene.
-
-
 # 🦾 Antipodal Grasping with Point Clouds
 
 This project implements an automated grasping pipeline in a simulated PyBullet environment. It uses point cloud data to detect objects, compute antipodal grasps, and control a robot to remove objects from the scene.
